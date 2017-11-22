@@ -1,3 +1,0 @@
-<p>
-    Siehe readme
-</p>
