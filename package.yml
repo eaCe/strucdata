@@ -1,0 +1,10 @@
+package: strucdata
+version: '0.1a'
+author: eaCe
+supportpage: /
+
+page:
+  title: 'Strukturierte Daten'
+  icon: rex-icon fa-sitemap
+  subpages:
+      app: { title: 'translate:strucdata_title',perm: strucdata[] }
