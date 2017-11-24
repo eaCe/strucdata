@@ -1,20 +1,29 @@
 {
-    "@context": "http://schema.org", 
+    "@context": "http://schema.org",
     "@type": "Article",
-    "headline": "Extra! Extra! Read alla bout it",
-    "alternativeHeadline": "This article is also about robots and stuff",
-    "image": "http://example.com/image.jpg",
-    "author": "Patrick Coombe", 
-    "award": "Best article ever written",
-    "editor": "Craig Mount", 
-    "genre": "search engine optimization", 
-    "keywords": "seo sales b2b", 
-    "wordcount": "1120",
-    "publisher": "Book Publisher Inc",
-    "url": "http://www.example.com",
-    "datePublished": "2015-09-20",
-    "dateCreated": "2015-09-20",
-    "dateModified": "2015-09-20",
-    "description": "We love to do stuff to help people and stuff",
-    "articleBody": "You can paste your entire post in here, and yes it can get really really long."
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://google.com/article"
+    },
+    "headline": "Article headline",
+    "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+    ],
+    "datePublished": "2015-02-05T08:00:00+08:00",
+    "dateModified": "2015-02-05T09:20:00+08:00",
+    "author": {
+        "@type": "Person",
+        "name": "John Doe"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Google",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://google.com/logo.jpg"
+        }
+    },
+    "description": "A most wonderful article"
 }

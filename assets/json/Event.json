@@ -1,28 +1,37 @@
 {
-    "@context": "http://www.schema.org",
+    "@context": "http://schema.org",
     "@type": "Event",
-    "name": "Launch Party",
-    "url": "http://www.example.com/launch-party",
-    "description": "We're excited to announce the launch party for our newest app!",
-    "startDate": "10/05/2015 12:00PM",
-    "endDate": "10/05/2015 02:00PM",
+    "name": "Jan Lieberman Concert Series: Journey in Jazz",
+    "startDate": "2017-04-24T19:30-08:00",
     "location": {
         "@type": "Place",
-        "name": "Joe's Party Palace",
-        "sameAs": "http://www.example.com",
+        "name": "Santa Clara City Library, Central Park Library",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "100 Main Street",
-            "addressLocality": "Seattle",
-            "addressRegion": "WA",
-            "postalCode": "98101",
-            "addressCountry": "USA"
+            "streetAddress": "2635 Homestead Rd",
+            "addressLocality": "Santa Clara",
+            "postalCode": "95051",
+            "addressRegion": "CA",
+            "addressCountry": "US"
         }
     },
+    "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+    ],
+    "description": "Join us for an afternoon of Jazz with Santa Clara resident and pianist Andy Lagunoff. Complimentary food and beverages will be served.",
+    "endDate": "2017-04-24T23:00-08:00",
     "offers": {
         "@type": "Offer",
-        "description": "an offer description",
-        "url": "http://www.example.com",
-        "price": "$9.99"
+        "url": "https://www.example.com/event_offer/12345_201803180430",
+        "price": "30",
+        "priceCurrency": "USD",
+        "availability": "http://schema.org/InStock",
+        "validFrom": "2017-01-20T16:20-08:00"
+    },
+    "performer": {
+        "@type": "PerformingGroup",
+        "name": "Andy Lagunoff"
     }
 }
