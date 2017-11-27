@@ -162,4 +162,16 @@ getJsonLD($array);</pre>
 
 <script>
     var sDataUrl = "<?= rex_url::currentBackendPage() ?>";
+    
+    jQuery(document).ready(function ()
+    {
+        try
+        {
+            new redaxo.SDataApp();
+        }
+        catch (e)
+        {
+            console.error("SDataApp: ", e);
+        }
+    });
 </script>
