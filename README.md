@@ -1,3 +1,5 @@
+# :exclamation: Das Addon wird komplett neu geschrieben, diese Version wird nicht weiterentwickelt.
+
 Redaxo 5 Addon für strukturierte Daten im JSON-LD Format
 =================================
 
